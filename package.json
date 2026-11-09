@@ -1,0 +1,29 @@
+{
+  "name": "evuacion",
+  "version": "1.0.0",
+  "description": "EVALUACIÓN: API REST BACKEND CON NODE.JS, EXPRESS Y MYSQL",
+  "keywords": [
+    "crud",
+    "proveedores",
+    "express"
+  ],
+  "license": "ISC",
+  "author": "Marusoft",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/modules/index.js",
+    "start": "node src/modules/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.24.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
